@@ -36,7 +36,13 @@
       align-items: center; justify-content: space-between;
     }
     .brand { font-weight: 700; font-size: 1.6rem; color: var(--accent); }
-    nav ul { list-style: none; display: flex; gap: 2rem; }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: nowrap;
+    }
+    nav li { white-space: nowrap; }
     nav a {
       font-weight: 500; position: relative; padding: 0.3rem 0; transition: color 0.25s;
     }
